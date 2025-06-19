@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import AllRooms from "./pages/AllRooms";
 import RoomDetails from "./pages/RoomDetails";
+import BookingDetails from "./pages/BookingDetails";
 
 const App = () => {
   // Check if the current URL path contains the word "owner"
@@ -25,6 +26,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/rooms" element={<AllRooms />} />
           <Route path="/rooms/:id" element={<RoomDetails />} />
+          <Route path="/my-bookings" element={<BookingDetails />} />
+
         </Routes>
       </div>
       <Footer />
