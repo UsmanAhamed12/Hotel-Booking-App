@@ -5,8 +5,10 @@ import { assets, cities } from "../assets/assets";
 // import heroImg from '../assets/heroImage.png'
 
 const Hero = () => {
+  
+  
   return (
-    <div className='flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[url("/src/assets/heroImage.png")] bg-cover bg-no-repeat bg-center h-screen bg-gradient-to-r-[rgba(0,0,0,0.8)]'>
+    <div className='flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("/src/assets/heroImage.jpg")] bg-cover bg-no-repeat bg-center h-screen bg-gradient-to-r-[rgba(0,0,0,0.8)] '>
       <p className="bg-[#49B9FF]/50 px-3.5 py-1 rounded-full mt-20">
         The Ultimate Hotel Experience
       </p>
