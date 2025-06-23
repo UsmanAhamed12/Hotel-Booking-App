@@ -12,7 +12,7 @@ app.use(cors()); // enable cross-origin resource sharing
 
 // Middleware
 app.use(express.json());
-app.use(clerkMiddleware());
+app.use(clerkMiddleware);
 
 // API to listen to Clerk webhooks
 app.use("/api/clerk", clerkWebHooks())
