@@ -8,7 +8,7 @@ const Dashboard = () => {
   
 
   return (
-    <div>
+    <div className="">
       <Title
         align={"left"}
         font={"Outfit"}
